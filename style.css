@@ -1,0 +1,32 @@
+/*
+Theme Name: atena
+Theme URI: http://www.atena-agency.com
+Description: -
+Version: 1
+Author: Matteo Forcellini 
+Author URI: http://www.matteoforcellini.com
+*/
+
+ul.social-icons li {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	background-image: url("img/social-sprites.png");
+	background-repeat: no-repeat;
+	background-position: 0 100px;
+	display: inline-block;
+	margin: -1px 1px 5px 0;
+	padding: 0;
+	border-radius: 100%;
+	overflow: visible;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+}
+
+#hero {
+padding: 0 5px;
+margin-top: 40px ;
+background-image: url(./img/bg-hero-1920x437.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
